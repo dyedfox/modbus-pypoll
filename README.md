@@ -34,5 +34,7 @@ modbus <IP address> <port> <device number> <data address> <data lengh>
 
 ```
 
+Script performs 100 poll iterations by default. You can iterrup it by pressing 'Ctrl+C'.
+
 ## Contact
 Created by dyedfox - feel free to contact me via GitHub!
