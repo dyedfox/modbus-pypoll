@@ -31,11 +31,8 @@ Example of usage:
 ```
 modbus 172.16.30.51 502 10 1175 1
 
-modbus <IP address> <port> <device number> <data address> <data lengh>
-
+modbus <IP address> <port> <device number> <data address> <data type/length>
+Data type/length: '-2' - I32, '2' - U32, '-1' - I16, '1' - U16
 ```
 
 The script performs 100 poll iterations by default. You can interrupt it by pressing 'Ctrl+C'.
-
-## Contact
-Created by dyedfox - feel free to contact me via GitHub!
